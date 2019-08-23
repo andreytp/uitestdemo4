@@ -1,4 +1,4 @@
-package ui.selenide.tests;
+package review1;
 
 import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
@@ -12,6 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class TodoMVCTest {
     @Test
     public void createTask(){
+
         open("http://todomvc4tasj.herokuapp.com/#");
 
         $("#new-todo").setValue("task1").pressEnter();
@@ -20,15 +21,16 @@ public class TodoMVCTest {
         $("#new-todo").setValue("task4").pressEnter();
         $$("#todo-list li").shouldHave(exactTexts("task1", "task2", "task3", "task4"));
 
-        $(By.xpath("//div[contains(label/text(),'task2')]/label")).click();
-        $(By.xpath("//div[contains(label/text(),'task2')]/button")).click();
-        $$("#todo-list li").shouldHave(size(3));
+        //delete
+        $(By.cssSelector("#todo-list li:nth-child(2)")).hover().find(".destroy").click();
+        $$("#todo-list li").shouldHave(exactTexts("task1", "task3", "task4"));
 
-        $(By.xpath("//div[contains(label/text(),'task4')]/label")).click();
-        $(By.xpath("//div[contains(label/text(),'task4')]/input")).click();
+        //mark completed & delete
+        $(By.cssSelector("#todo-list li:nth-child(3) .toggle")).click();
         $("#clear-completed").click();
-        $$("#todo-list li").shouldHave(size(2));
+        $$("#todo-list li").shouldHave(exactTexts("task1", "task3"));
 
+        //mark completed & delete
         $("#toggle-all").click();
         $("#clear-completed").click();
         $$("#todo-list li").shouldBe(empty);

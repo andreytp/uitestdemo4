@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953e8cad-d917-43ac-82b1-457ba861a4a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566474833699.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566474833699.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475473111.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475473111.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475636116.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475636116.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475747504.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475747504.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566478703307.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566478703307.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566478804152.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566478804152.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566479146853.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566479146853.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566479163842.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566479163842.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566482373851.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566482373851.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/review1/TodoMVCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/selenide/tests/TodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/selenide/tests/TodoMVCTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,17 +48,15 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="39" />
-    <option name="y" value="23" />
-    <option name="width" value="1576" />
-    <option name="height" value="823" />
-  </component>
   <component name="ProjectId" id="1Pm31rOgAQ7Tj4qlPWsUBZvVaD5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566418335492" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoMVCTest.createTask">
+  <component name="RunManager" selected="JUnit.TodoMVCTest.createTask (1)">
     <configuration name="DemoTest.testSomething" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uitestsjavademo" />
       <extension name="coverage">
@@ -64,6 +82,22 @@
       <option name="PACKAGE_NAME" value="ui.selenide.tests" />
       <option name="MAIN_CLASS_NAME" value="ui.selenide.tests.DemoTest" />
       <option name="METHOD_NAME" value="testSomething" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoMVCTest.createTask (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uitestsjavademo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="review1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="review1" />
+      <option name="MAIN_CLASS_NAME" value="review1.TodoMVCTest" />
+      <option name="METHOD_NAME" value="createTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TodoMVCTest.createTask (1)" />
         <item itemvalue="JUnit.TodoMVCTest.createTask" />
         <item itemvalue="JUnit.DemoTest.testSomething" />
       </list>
@@ -110,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566476264912</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change css selectors to XPath">
+      <created>1566483324021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566483324021</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,15 +160,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add todo mvc test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add todo mvc test" />
+    <MESSAGE value="change css selectors to XPath" />
+    <option name="LAST_COMMIT_MESSAGE" value="change css selectors to XPath" />
   </component>
   <component name="masterDetails">
     <states>
