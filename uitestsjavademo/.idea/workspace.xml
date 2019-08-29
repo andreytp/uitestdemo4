@@ -1,29 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="953e8cad-d917-43ac-82b1-457ba861a4a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566474833699.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566474833699.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475473111.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475473111.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475636116.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475636116.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475747504.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566475747504.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566478703307.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566478703307.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566478804152.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566478804152.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566479146853.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566479146853.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566479163842.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566479163842.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566482373851.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566482373851.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/review1/TodoMVCTest.java" afterDir="false" />
+    <list default="true" id="953e8cad-d917-43ac-82b1-457ba861a4a5" name="Default Changelist" comment=" code review&#10; add more tests">
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/bin/allure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/bin/allure.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/config/allure-cucumber.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/config/allure-junit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/config/allure.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure-commandline-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure-generator-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure-plugin-api-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure1-model-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure2-model-api-1.0-BETA4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure2-model-jackson-1.0-BETA4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure2-model-pojo-1.0-BETA4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/asm-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/asm-analysis-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/asm-tree-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/asm-util-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/config/jetty-logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/config/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/freemarker-2.3.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-core-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-databind-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-dataformat-yaml-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-module-jaxb-annotations-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jaxb-utils-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jcommander-1.64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jetty-http-9.2.2.v20140723.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jetty-io-9.2.2.v20140723.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jetty-server-9.2.2.v20140723.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jetty-util-9.2.2.v20140723.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/parboiled-core-1.1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/parboiled-java-1.1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/pegdown-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/properties-2.0.RC5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/slf4j-log4j12-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/snakeyaml-1.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/tika-core-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/behaviors-plugin/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/behaviors-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/junit-plugin-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/lib/doxia-sink-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/lib/maven-reporting-api-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/lib/surefire-report-parser-2.19.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/packages-plugin/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/packages-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Results - TodoMVCTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566578120487.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566578120487.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566578470124.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566578470124.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566578486819.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566578486819.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566579261841.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566579261841.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566580385361.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566580385361.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566581183539.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566581183539.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566581479263.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566581479263.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566581552005.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566581552005.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566582924869.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566582924869.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566582925464.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566582925464.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566587400562.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566587400562.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566589014822.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566589014822.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566589663393.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566589663393.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566589920177.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566589920177.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566589924812.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566589924812.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566590025839.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566590025839.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566590030506.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566590030506.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591485110.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591485110.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591485607.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591485607.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591610928.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591610928.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591664952.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591664952.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591665364.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566591665364.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566897796120.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566897796120.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566898069524.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566898069524.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566898783551.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566898783551.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899032021.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899032021.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899505377.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899505377.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899786017.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899786017.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899786647.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899786647.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899865891.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899865891.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899866356.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566899866356.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900238232.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900238232.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900238715.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900238715.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900362610.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900362610.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900510903.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900510903.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900665077.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566900665077.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566902521162.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566902521162.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566904985303.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566904985303.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566904985865.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566904985865.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566905406727.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566905406727.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566905407367.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566905407367.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566906964091.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566906964091.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566906964707.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566906964707.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566986943766.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566986943766.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566987525455.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566987525455.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566991374708.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1566991374708.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567002240066.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567002240066.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005076750.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005076750.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005583554.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005583554.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005712633.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005712633.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005817232.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005817232.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005910861.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005910861.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005967642.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567005967642.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567006975452.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567006975452.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567007051819.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567007051819.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567007118135.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567007118135.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567008462436.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567008462436.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567008783044.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567008783044.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567014185217.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567014185217.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567014195471.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567014195471.1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/selenide/tests/TodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/selenide/tests/TodoMVCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/review1/TodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/review1/TodoMVCTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +192,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -56,6 +218,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566418335492" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -70,19 +236,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoMVCTest.createTask (1)">
-    <configuration name="DemoTest.testSomething" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TodoMVCTest">
+    <configuration name="TodoMVCTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uitestsjavademo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ui.selenide.tests.*" />
+          <option name="PATTERN" value="review1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ui.selenide.tests" />
-      <option name="MAIN_CLASS_NAME" value="ui.selenide.tests.DemoTest" />
-      <option name="METHOD_NAME" value="testSomething" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="review1" />
+      <option name="MAIN_CLASS_NAME" value="review1.TodoMVCTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,11 +284,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodoMVCTest.testAddTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uitestsjavademo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="review1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="review1" />
+      <option name="MAIN_CLASS_NAME" value="review1.TodoMVCTest" />
+      <option name="METHOD_NAME" value="testAddTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoMVCTest.testTodoMVC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uitestsjavademo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="review1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="review1" />
+      <option name="MAIN_CLASS_NAME" value="review1.TodoMVCTest" />
+      <option name="METHOD_NAME" value="testTodoMVC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TodoMVCTest" />
+        <item itemvalue="JUnit.TodoMVCTest.testTodoMVC" />
+        <item itemvalue="JUnit.TodoMVCTest.testAddTask" />
         <item itemvalue="JUnit.TodoMVCTest.createTask (1)" />
         <item itemvalue="JUnit.TodoMVCTest.createTask" />
-        <item itemvalue="JUnit.DemoTest.testSomething" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566483324021</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" code review&#10; replaced XPath to CSS locator with filters">
+      <created>1566560725777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566560725777</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,22 +378,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add todo mvc test" />
     <MESSAGE value="change css selectors to XPath" />
-    <option name="LAST_COMMIT_MESSAGE" value="change css selectors to XPath" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <MESSAGE value=" code review&#10; replaced XPath to CSS locator with filters" />
+    <MESSAGE value=" code review&#10; add more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value=" code review&#10; add more tests" />
   </component>
 </project>
