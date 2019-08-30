@@ -1,62 +1,16 @@
-package review1;
+package oop.refactoring;
 
-import com.codeborne.selenide.*;
-import com.google.common.io.Files;
-import e2e_vs_ft.refactoring.AtTodoMVCPageWithClearedDataAfterEachTest;
-import io.qameta.allure.Attachment;
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.ElementsCollection;
 import io.qameta.allure.Step;
-import org.checkerframework.checker.nullness.compatqual.NullableDecl;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.logging.LogType;
-import org.openqa.selenium.logging.LoggingPreferences;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.logging.Level;
-
-import static com.codeborne.selenide.CollectionCondition.*;
+import static com.codeborne.selenide.CollectionCondition.empty;
+import static com.codeborne.selenide.CollectionCondition.exactTexts;
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 public class TodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEachTest {
-
-
-    @Before
-    public void openPage() {
-
-        Configuration.fastSetValue = true;
-        Configuration.screenshots =  true;
-
-        open("http://todomvc4tasj.herokuapp.com/#");
-
-        waitForUsePage();
-
-    }
-
-    @After
-    public void tearDown()  {
-        screenshot();
-    }
-
-    @After
-    public void clearData()  {
-
-        executeJavaScript("localStorage.clear()");
-        refresh();
-    }
 
     @Test
     public void testTodoMVC() {
@@ -110,24 +64,6 @@ public class TodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEachTest {
     }
 
     ElementsCollection tasks = $$("#todo-list li").filterBy(Condition.visible);
-
-
-
-    private void waitForUsePage() {
-        new WebDriverWait(getWebDriver(), 3000).until(
-                new ExpectedCondition<Boolean>() {
-                    @NullableDecl
-                    public Boolean apply(@NullableDecl WebDriver webDriver) {
-                        return (Boolean) ((JavascriptExecutor) webDriver).executeScript(
-                                "return " +
-                                        "typeof($) == 'function' &&" +
-                                        "$._data($('#new-todo').get(0), 'events').hasOwnProperty('keyup')&& " +
-                                        "$._data($('#toggle-all').get(0), 'events').hasOwnProperty('change') && " +
-                                        "$._data($('#clear-completed').get(0), 'events').hasOwnProperty('click')");
-                    }
-                }
-        );
-    }
 
     @Step
     private void toggleAll() {
@@ -202,10 +138,5 @@ public class TodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEachTest {
         $("#clear-completed").click();
     }
 
-    @Attachment(type = "image/png")
-    public byte[] screenshot()  {
-//        File screenshot = Screenshots.getLastScreenshot();
-//        return screenshot == null ? null : Files.toByteArray(screenshot);
-        return ((TakesScreenshot) WebDriverRunner.getWebDriver()).getScreenshotAs(OutputType.BYTES);
-    }
+
 }
