@@ -1,45 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="953e8cad-d917-43ac-82b1-457ba861a4a5" name="Default Changelist" comment=" code review&#10; add more tests">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uitestsjavademo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/239fa407-e523-4e86-9b5f-97f896bcd298-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/428b9d73-558c-4623-a874-d295d0bb3d7d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/48f54d9a-cfea-4161-a7ba-890c5a3725df-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6dfdc2d0-857b-4e6d-93c4-b276677dcba7-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/854a3d00-5c7f-430c-99f0-525109070963-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/87fb4fc3-9ec1-47b8-94af-1fb7b3be0516-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9b44e728-7b71-4357-bc9a-3f92f01602af-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/abb79537-2b90-4551-a1b1-6b1fe8497ed5-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bc8ed2e0-cc5e-4edf-8ba4-58c1785d46a1-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c3996060-5a74-4fcc-a81c-a7e581595e23-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/df4f4f35-c13f-4e04-9b9a-6035912f330a-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/eeb61506-bb9b-4d63-8bef-7335195eb94c-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f1861085-25e0-4495-9724-4a562180f16d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567101559405.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567101559405.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567102563806.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567102563806.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567155809625.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567155809625.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567156184372.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567156184372.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/AtTodoMVCPageWithClearedDataAfterEachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/GoogleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/TaskType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/TodoMVCSpecialCasesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/TodoMVCSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/TodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop/refactoring/AtTodoMVCPageWithClearedDataAfterEachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop/refactoring/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop/refactoring/GoogleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop/refactoring/TodoMVCSpecialCasesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop/refactoring/TodoMVCTest.java" afterDir="false" />
+    <list default="true" id="953e8cad-d917-43ac-82b1-457ba861a4a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LearnProject/src/CodeAssistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/055a142f-8384-4c3e-8c5c-d2c928fe1ccb-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/167723d7-abd6-4577-bdf4-05634453348e-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1e7266ac-30b5-4fc6-a5a1-f658668e9114-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/238968b9-5fdc-4aa9-a80e-5f332f0a7283-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/30edca2f-dd9f-4b97-83aa-c21fc71c02a1-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/35426fd4-a154-4e6e-a93b-92a741ca2814-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3a45befb-0edf-4f56-ae2f-d62a18dee8c2-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3bd1d0da-7da9-420b-bf86-14e677a54563-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3be73032-8db3-4b02-906f-86c8d03446c6-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/40a27e81-a620-4d21-abb0-198d574b9fcc-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4d640fb8-ba4d-4c92-b406-2a139d6ea5fb-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4e92ec9a-9e73-4934-b6f6-5f086b35b2a6-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/54daf5e6-0928-4af7-8771-bf1383e1b549-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5733db1f-fc56-40be-81d3-ad7dade0c28c-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5f817a9a-6bf7-4cc9-89f8-e4ce6c8299b6-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/639e16a5-10db-4b4a-9eb6-7965e703c60a-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/668f6322-0e16-48a5-9651-bfc7040ced9e-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6ad73f5d-9b04-4cad-8084-29d41b8cf416-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6bb35fc7-a169-45ab-ab60-67e7646001d7-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/754b5e59-16d9-4e14-a98c-3ecc6f06a67c-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/76a127d9-6943-4645-aa88-e569c4445ac2-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7a48b91e-e697-4eb1-ae74-1ba6751fe360-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/80fb9308-4e35-48fe-bca9-00b50d2dcfa5-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8ac94621-51e7-4a03-96aa-76377a77acc9-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8c973596-1a35-402e-b32a-e7a43101a31b-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/949bd924-332f-4988-b709-0a5706d3bc85-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9f7b990c-7828-46a0-8c97-a07cb2b26ee0-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a141864d-8e62-4d3c-a723-24a53e5d540d-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b704b000-2829-4335-ae88-9bef0c85c027-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/baede645-b1be-4601-b30d-c52ce7d7fed7-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bbd9293b-9c08-466b-bc37-c6c09ee77728-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c07c2e69-79e0-4e9c-a354-58214e9df099-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c142beb6-4c85-4245-95d2-1e6177846532-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ca11664f-ed1a-44f3-a582-229fa566702a-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cac7dc67-11bf-4a8e-ad13-e1c2561fbe15-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cb9fdd68-b496-4a92-ae57-8ae57d13edf9-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cdd5179d-5950-4ccb-9121-bd032864bfce-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d402cc2f-8481-4f93-a055-684ff3a1a946-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d69fcc78-50de-4dc9-b877-0a9b08048d3c-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f1f176de-e72b-48e8-8c48-583afd939b78-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fee40e36-43b2-4f96-9c9c-16946d8a9934-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567687225864.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567687225864.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567687246202.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567687246202.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567687512662.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567687512662.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObject/refactoring/AtTodoMVCPageWithClearedDataAfterEachTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObject/refactoring/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObject/refactoring/PageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObject/refactoring/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObject/refactoring/TaskType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObject/refactoring/TodoMVCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/review1/TodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/review1/TodoMVCTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,7 +93,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566418335492" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/e2e_vs_ft" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/pageObject" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -87,6 +104,7 @@
       <recent name="oop.refactoring" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/pageObject" />
       <recent name="$PROJECT_DIR$/src/test/java/e2e_vs_ft" />
     </key>
   </component>
@@ -102,7 +120,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoMVCTest (1)">
+  <component name="RunManager" selected="JUnit.TodoMVCTest (2)">
+    <configuration name="HumanTest.testHuman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uitestsjavademo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageObject.refactoring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageObject.refactoring" />
+      <option name="MAIN_CLASS_NAME" value="pageObject.refactoring.HumanTest" />
+      <option name="METHOD_NAME" value="testHuman" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TodoMVCTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uitestsjavademo" />
       <extension name="coverage">
@@ -118,16 +152,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoMVCTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoMVCTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uitestsjavademo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review1.*" />
+          <option name="PATTERN" value="pageObject.refactoring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="review1" />
-      <option name="MAIN_CLASS_NAME" value="review1.TodoMVCTest" />
+      <option name="PACKAGE_NAME" value="pageObject.refactoring" />
+      <option name="MAIN_CLASS_NAME" value="pageObject.refactoring.TodoMVCTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,17 +182,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoMVCTest.testAddTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoMVCTest.testMarkOutCompletedTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uitestsjavademo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review1.*" />
+          <option name="PATTERN" value="pageObject.refactoring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="review1" />
-      <option name="MAIN_CLASS_NAME" value="review1.TodoMVCTest" />
-      <option name="METHOD_NAME" value="testAddTask" />
+      <option name="PACKAGE_NAME" value="pageObject.refactoring" />
+      <option name="MAIN_CLASS_NAME" value="pageObject.refactoring.TodoMVCTest" />
+      <option name="METHOD_NAME" value="testMarkOutCompletedTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,29 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoMVCTest.testTodoMVC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uitestsjavademo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="review1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="review1" />
-      <option name="MAIN_CLASS_NAME" value="review1.TodoMVCTest" />
-      <option name="METHOD_NAME" value="testTodoMVC" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TodoMVCTest (2)" />
+        <item itemvalue="JUnit.TodoMVCTest.testMarkOutCompletedTask" />
+        <item itemvalue="JUnit.HumanTest.testHuman" />
         <item itemvalue="JUnit.TodoMVCTest (1)" />
         <item itemvalue="JUnit.TodoMVCTest.testTodoMVC (1)" />
-        <item itemvalue="JUnit.TodoMVCTest.testAddTask" />
-        <item itemvalue="JUnit.TodoMVCTest" />
-        <item itemvalue="JUnit.TodoMVCTest" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567073205192</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" code review&#10; add more class">
+      <created>1567157557973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567157557973</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +292,7 @@
     <MESSAGE value="change css selectors to XPath" />
     <MESSAGE value=" code review&#10; replaced XPath to CSS locator with filters" />
     <MESSAGE value=" code review&#10; add more tests" />
-    <option name="LAST_COMMIT_MESSAGE" value=" code review&#10; add more tests" />
+    <MESSAGE value=" code review&#10; add more class" />
+    <option name="LAST_COMMIT_MESSAGE" value=" code review&#10; add more class" />
   </component>
 </project>
