@@ -1,141 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5b92299-28e0-423d-a369-8b8cfb47e051" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/27b8669c-0da3-4a3d-8ebc-e416b3fcb5a5-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567782136232.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567782136232.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/01055d49-acb7-4943-8c07-b178138eef11-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/027dbdf0-6d78-4006-8131-f79eb222c186-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/03b7c8b9-d960-4627-a54f-ff206ba1de0f-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/07a4d215-02bc-4bec-95e0-996ecae67b4f-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/1928d1b1-26dd-4b84-8776-f4158d261c60-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/1c6d27eb-068c-40dd-bf85-b7f9d877b486-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/1e7ebcae-8aac-4fd5-93e9-a55bf77bfba0-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/2a4cb15e-d541-4298-912b-5b0674b71dbb-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/3213f4aa-6f13-4043-bfbe-1bbfa54b5ca2-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/3231ef47-12c1-4228-bdc6-67c73cb5ba25-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/371c92fb-1637-4e22-8f18-71b20937c8bc-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/3c01e816-0047-4c4a-9c9b-d66a80c4f69d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/430fdfb3-8bc8-4abd-98d7-6654e94abca8-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/434d3cfc-4dd3-481b-9726-36d9455603bf-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/45709d51-740a-4f2f-ad50-9788d2965010-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/45e6dc44-1401-476a-9e86-eaf8aa3b191b-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/46e47aa2-da80-4c38-a03f-36fd1e631ad5-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/47c903e4-31e2-4328-91df-22d482aa527e-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/4acc0322-7b7d-4865-9535-e16fd5a8b8fe-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/4c7548d3-a39e-482d-9959-2f57a8e2c684-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/4cca77f1-7f6e-4c66-8baf-89712b98c8e6-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/51193aad-37ae-458d-8776-9924464a6527-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/5313033b-efef-4e1c-8015-d0fc7be33504-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/55e7b589-3f28-4f58-8f56-320f16df21fd-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/58a5b23a-6705-4303-8187-2399b24d392d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/58c14d5d-b3f1-4828-bd53-5a42028382e7-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/5e27d59e-cc27-4994-84dc-a78fd70d6d3b-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/5f15aa9f-4249-40bb-934e-8ca2779b3fa1-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/6057cbd0-0a52-4979-a3c3-c718ab5c38c3-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/6140fcec-0041-4009-90b3-d7ac4d2fd1f2-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/64247ea6-33a7-448a-a9fd-d04c686d09ad-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/66742f71-3a90-48ae-8d81-d0addce2da5f-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/678ed645-4b15-4c43-8f43-36fc9cb25c11-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/67ce5403-04be-4949-9182-31fb8ed1ac92-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/68bb7565-8fd1-4855-b12b-51eb36397e92-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/6945247d-4b75-43e0-928f-2e1e72faa2c1-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/6f45b9f2-2ef3-4ed1-a755-08c5a50d57da-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/72a413ed-9886-472d-a756-67df6de6461d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/74ff4330-1be3-4b64-907d-c407bd6fec2c-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/787c9438-3391-4b78-a531-960080adfa03-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/7c9c76c5-dba3-4934-a19e-ba98760861c3-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/7f5686c9-2781-4576-80c2-64f594874e8a-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/817b056c-fc1d-4430-8344-c26ec57a7bfd-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/86b2f447-84a3-42f4-85d2-f0b2cc064275-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/86b5a649-ee3a-4e4b-ae48-4ded24b3af75-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/89c69d9a-7475-4227-9d01-2edf2b3c82f9-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/8a423c96-e693-4826-ad56-569dc2469c7d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/8ff6006d-472b-47e3-be66-49ec5144c794-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/93d41b16-95c0-4f74-b809-b7d9316103a9-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/952b2b5e-1cd9-4af4-a60e-26e620c08080-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/961839e4-70a0-459f-92e1-26670f7c93cf-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/97ac52d7-0e0b-4c7d-ba11-8fb92c56a648-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/9d231e09-bc24-47eb-9e7f-960d394cb955-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/9da687f5-acd9-4e2e-bcce-0a79ba17f4be-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/9e55345c-83ed-44fc-b8ad-65c01f4539a2-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/a4bdc70f-b973-4646-aab8-a1d891267438-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/a4c5661d-9341-4bfa-8bd9-a1db56458500-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/a53e8d0a-2553-4c56-aed6-69b1764fc264-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/a6672058-f1c5-4390-9cc8-075c980204e2-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/a7c8ea8f-df81-46eb-954b-f771c6d7fb68-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/a8c794c2-4278-417e-bf50-63579c622cfb-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/a9bfb2af-ec2f-4760-b651-8af23355d6b5-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/ab153c88-f3fe-4c18-b90c-319c9430e077-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/acab450f-d284-4d14-8bc2-9f4db8bb26d5-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/af144359-550b-4199-b738-faaa8ea66657-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/b074ebf8-55af-43b6-a667-b38c2e680fbe-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/b259a4e2-e377-47e6-95ac-9e52a9822116-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/b3a95a8f-8f2d-45c7-b16c-2d6cd9dfe186-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/bb24e168-275f-4e04-9185-a8b9ac96babf-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/bb9cea5a-7ea6-45d0-9bb3-e2b03dd76d17-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/bcc586e8-7321-4802-99e5-c6ce0780d631-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/bfb5a090-7045-4cd4-bbd8-380690ae7486-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/c20197a2-1ec7-4b2c-95de-3e0ec42ee7de-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/c3edcece-b8a1-41f2-a4d5-5d240da0ffbe-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/cb39391e-200b-4979-b9c3-2bf11e9aac3b-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/cd108b2a-46ca-4a5b-9c82-36a030957200-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/cf599a4f-77c5-4da1-bb4d-79f59e894a9c-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/d3344f99-ada5-4ace-9cf1-e7833e66d617-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/d5c23472-b5d1-4bb2-8210-5fb67fa47ea7-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/dc5a8e81-d592-46b4-8e46-74ba2b268057-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/ddb95d16-2f4c-4b3c-becd-0f706ba7b57d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/df05728a-6f05-4131-bcd6-fbe05fb82015-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/e9ef3730-5709-4adb-bcd0-91791858c52b-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/eb254a2d-aea5-4c7f-aaff-0cda778b4eaa-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/efa191ce-e05e-40cf-b5fa-7ca9aa1fe3f4-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/f3e7db5f-dbb6-461f-a3cc-03cb44b6a5a1-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/f6c09950-fffa-47a4-b03c-26b80e4671a8-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/fc2862b1-49be-4216-a62d-fca1796e30f9-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/fdb4c335-fdd4-4a1d-b7d7-30ab763c4967-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/feb8e234-9203-4583-958a-18be4d44510d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567703020273.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567703020273.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567711908318.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567711908318.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567711908669.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567711908669.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712210511.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712210511.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712210863.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712210863.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712482777.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712482777.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712486505.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712486505.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712610088.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712610088.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712610451.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712610451.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712739339.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712739339.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712739702.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567712739702.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567714453643.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567714453643.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567714504720.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567714504720.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567715452765.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567715452765.0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AtTodoMVCPageWithClearedDataAfterEachTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/BaseTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/TodosE2ETest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ancillary/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ancillary/TaskType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/pages/PageObject.class" beforeDir="false" />
-    </list>
+    <list default="true" id="d5b92299-28e0-423d-a369-8b8cfb47e051" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567784521777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add profiles to pom.xml">
+      <created>1567787570370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567787570370</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="junit categories suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="junit categories suite" />
+    <MESSAGE value="add profiles to pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add profiles to pom.xml" />
   </component>
 </project>
