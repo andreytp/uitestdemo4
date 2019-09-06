@@ -1,6 +1,13 @@
+/Users/andreytp/webuitest/todomvctestssuite/src/test/java/SmokeSuiteTest.java
 /Users/andreytp/webuitest/todomvctestssuite/src/test/java/features/ancillary/Task.java
+/Users/andreytp/webuitest/todomvctestssuite/src/test/java/categories/Buggy.java
 /Users/andreytp/webuitest/todomvctestssuite/src/test/java/features/pages/PageObject.java
-/Users/andreytp/webuitest/todomvctestssuite/src/test/java/features/BaseTest.java
+/Users/andreytp/webuitest/todomvctestssuite/src/test/java/categories/Smoke.java
+/Users/andreytp/webuitest/todomvctestssuite/src/test/java/AllSuiteTest.java
 /Users/andreytp/webuitest/todomvctestssuite/src/test/java/features/ancillary/TaskType.java
+/Users/andreytp/webuitest/todomvctestssuite/src/test/java/BuggySuiteTest.java
+/Users/andreytp/webuitest/todomvctestssuite/src/test/java/FullAcceptanceSuiteTest.java
+/Users/andreytp/webuitest/todomvctestssuite/src/test/java/features/TodosOperationsAtAllFilterTest.java
+/Users/andreytp/webuitest/todomvctestssuite/src/test/java/features/BaseTest.java
 /Users/andreytp/webuitest/todomvctestssuite/src/test/java/features/AtTodoMVCPageWithClearedDataAfterEachTest.java
 /Users/andreytp/webuitest/todomvctestssuite/src/test/java/features/TodosE2ETest.java

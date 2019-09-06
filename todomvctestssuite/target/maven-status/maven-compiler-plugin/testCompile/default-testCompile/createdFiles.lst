@@ -1,7 +1,14 @@
 features/ancillary/Task.class
-features/BaseTest.class
+categories/Buggy.class
 features/TodosE2ETest.class
+SmokeSuiteTest.class
+categories/Smoke.class
+features/BaseTest$1.class
+BuggySuiteTest.class
+FullAcceptanceSuiteTest.class
+features/TodosOperationsAtAllFilterTest.class
+features/BaseTest.class
 features/AtTodoMVCPageWithClearedDataAfterEachTest.class
 features/ancillary/TaskType.class
-features/BaseTest$1.class
 features/pages/PageObject.class
+AllSuiteTest.class

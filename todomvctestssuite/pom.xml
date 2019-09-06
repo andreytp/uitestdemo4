@@ -14,6 +14,8 @@
         <compiler.version>1.7</compiler.version>
         <suite>*Test</suite>
         <driver.browser>chrome</driver.browser>
+        <test.includeCategories></test.includeCategories>
+        <test.excludeCategories></test.excludeCategories>
 
     </properties>
 
@@ -79,10 +81,12 @@
                             <value>${project.build.directory}/allure-results</value>
                         </property>
                     </systemProperties>
-                    <test>suites.refactoring.${suite}</test>
+                    <test>${suite}</test>
                     <systemPropertyVariables>
                         <driver.browser>${driver.browser}</driver.browser>
                     </systemPropertyVariables>
+                    <groups>${test.includeCategories}</groups>
+                    <excludedGroups>${test.excludeCategories}</excludedGroups>
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -99,4 +103,34 @@
             </plugin>
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>smokeprofile</id>
+            <properties>
+                <test.includeCategories>categories.Smoke</test.includeCategories>
+                <test.excludeCategories>categories.Buggy</test.excludeCategories>
+            </properties>
+        </profile>
+        <profile>
+            <id>fullacceptanceprofile</id>
+            <properties>
+                <test.includeCategories></test.includeCategories>
+                <test.excludeCategories>categories.Buggy</test.excludeCategories>
+            </properties>
+        </profile>
+        <profile>
+            <id>buggyprofile</id>
+            <properties>
+                <test.includeCategories>categories.Buggy</test.includeCategories>
+                <test.excludeCategories></test.excludeCategories>
+            </properties>
+        </profile>
+        <profile>
+            <id>allprofile</id>
+            <properties>
+                <test.includeCategories></test.includeCategories>
+                <test.excludeCategories></test.excludeCategories>
+            </properties>
+        </profile>
+    </profiles>
 </project>

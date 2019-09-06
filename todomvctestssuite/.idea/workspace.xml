@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b92299-28e0-423d-a369-8b8cfb47e051" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LearnProject/LearnProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/27b8669c-0da3-4a3d-8ebc-e416b3fcb5a5-attachment" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build/reports/tests/1567782136232.0.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/build/reports/tests/1567782136232.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AllSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BuggySuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FullAcceptanceSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SmokeSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/AtTodoMVCPageWithClearedDataAfterEachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/TodosE2ETest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/TodosOperationsAtAllFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/ancillary/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/ancillary/TaskType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/pages/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/AtTodoMVCPageWithClearedDataAfterEachTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/BaseTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/TodosE2ETest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/ancillary/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/ancillary/TaskType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/pages/PageObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todomvctestssuite.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/01055d49-acb7-4943-8c07-b178138eef11-attachment" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/027dbdf0-6d78-4006-8131-f79eb222c186-attachment" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../uitestsjavademo/allure-results/03b7c8b9-d960-4627-a54f-ff206ba1de0f-attachment" afterDir="false" />
@@ -153,30 +123,18 @@
       <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567714504720.1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567715452765.0.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../uitestsjavademo/build/reports/tests/1567715452765.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/AtActiveTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/AtAllSmokeTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/AtAllTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/AtCompletedTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/AtTodoMVCPageWithClearedDataAfterEachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/TaskType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/AcceptanceSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/SmokeSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/categories/End2End.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/categories/Smoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/features/AtActiveTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/features/AtAllSmokeTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/features/AtAllTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/features/AtCompletedTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/features/AtTodoMVCPageWithClearedDataAfterEachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/features/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/features/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/features/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/suites/refactoring/features/TaskType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../uitestsjavademo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uitestsjavademo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../uitestsjavademo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uitestsjavademo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AtTodoMVCPageWithClearedDataAfterEachTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/BaseTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/TodosE2ETest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ancillary/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ancillary/TaskType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/pages/PageObject.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,6 +158,11 @@
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="smokeprofile" />
+      </list>
     </option>
   </component>
   <component name="ProjectId" id="1QSp5ROCmqpm7o41yPmAKUtZc4k" />
@@ -297,6 +260,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567773667299</updated>
     </task>
+    <task id="LOCAL-00001" summary="junit categories suite">
+      <created>1567784521777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567784521777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,5 +282,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="junit categories suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="junit categories suite" />
   </component>
 </project>
