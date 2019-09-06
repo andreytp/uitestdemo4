@@ -4,9 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ui.selenide.tests</groupId>
-    <artifactId>uitestsjavademo</artifactId>
-    <version>0.1</version>
+    <groupId>uitests.learn</groupId>
+    <artifactId>todomvctestssuite</artifactId>
+    <version>1.0</version>
+
 
     <properties>
         <aspectj.version>1.9.1</aspectj.version>
@@ -60,7 +61,8 @@
                 <version>2.20</version>
                 <configuration>
                     <testFailureIgnore>false</testFailureIgnore>
-                    <argLine>
+                    <failIfNoTests>false</failIfNoTests>
+                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
 
@@ -69,6 +71,7 @@
                             <name>listener</name>
                             <value>io.qameta.allure.junit4.AllureJunit4</value>
                         </property>
+
                     </properties>
                     <systemProperties>
                         <property>
@@ -94,9 +97,6 @@
                 <artifactId>allure-maven</artifactId>
                 <version>2.9</version>
             </plugin>
-          </plugins>
+        </plugins>
     </build>
-
-
-
 </project>

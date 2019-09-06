@@ -1,0 +1,7 @@
+allure-results/
+.gitignore
+src/main/
+src/test/java/categories/
+target/generated-test-sources/
+target/maven-status/
+build/reports/tests/

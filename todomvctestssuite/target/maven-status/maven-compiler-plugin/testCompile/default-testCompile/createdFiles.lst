@@ -1,0 +1,7 @@
+features/ancillary/Task.class
+features/BaseTest.class
+features/TodosE2ETest.class
+features/AtTodoMVCPageWithClearedDataAfterEachTest.class
+features/ancillary/TaskType.class
+features/BaseTest$1.class
+features/pages/PageObject.class
