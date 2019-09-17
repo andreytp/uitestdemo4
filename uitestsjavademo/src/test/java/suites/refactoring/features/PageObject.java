@@ -2,15 +2,19 @@ package suites.refactoring.features;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
+import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.CollectionCondition.exactTexts;
 import static com.codeborne.selenide.Condition.exactText;
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class PageObject {
+
     public static ElementsCollection tasks = $$("#todo-list li").filterBy(Condition.visible);
 
     @Step
@@ -18,25 +22,10 @@ public class PageObject {
         $("#toggle-all").click();
     }
 
-    private static int getFiltersIndex(@org.jetbrains.annotations.NotNull String filter) {
-
-        if (filter.equals("all"))
-            return 0;
-
-        if (filter.equals("active"))
-            return 1;
-
-        if (filter.equals("completed"))
-            return 2;
-
-        return 0;
-
-    }
-
     @Step
-    public static void setFilter(String filter) {
+    public static void setFilter(TodosFilters filter) {
 
-        $$("#filters li").get(getFiltersIndex(filter)).click();
+        $$("#filters li").get(filter.getIndex()).click();
 
     }
 
@@ -46,29 +35,25 @@ public class PageObject {
     }
 
     @Step
-    public static void assertAre(String... tasksText) {
-        tasks.shouldHave(exactTexts(tasksText));
+    public static void assertTaskHaveExactTexts(String... tasksTexts) {
+        tasks.shouldHave(exactTexts(tasksTexts));
     }
 
     @Step
-    public static void assertKeysLeft(String keyLeft){
-        $("#todo-count").shouldHave(exactText(keyLeft + " item" + (keyLeft.equals("1")?"":"s")+" left"));
+    public static void assertKeysLeftHaveActiveItems(Integer keyLeft) {
+        $("#todo-count").shouldHave(exactText(keyLeft + " item" + ("1".equals(keyLeft.toString()) ? "" : "s") + " left"));
     }
 
     @Step
     public static void delete(String taskText) {
-        tasks.find(exactText(taskText)).hover().$(".destroy").click();
-    }
-
-    @Step
-    private void edit(int taskPosition, String newTaskText) {
-        tasks.get(taskPosition - 1).doubleClick();
-        tasks.find(Condition.cssClass("editing")).find(".edit").setValue(newTaskText).pressEnter();
+        tasks.find(exactText(taskText)).hover().$(".destroy").hover().click();
     }
 
     @Step
     public static void editByText(String oldTaskText, String newTaskText) {
-        startEditTask(oldTaskText, newTaskText).pressEnter();
+        startEditTask(oldTaskText, newTaskText);
+        $("#new-todo").click();
+
     }
 
     @Step
@@ -95,12 +80,18 @@ public class PageObject {
         $("#clear-completed").shouldBe(Condition.visible);
     }
 
-
-    public static SelenideElement startEditTask(String oldTaskText, String newTaskText){
+    @Step
+    public static SelenideElement startEditTask(String oldTaskText, String newTaskText) {
         tasks.find(exactText(oldTaskText)).doubleClick();
         return tasks.find(Condition.cssClass("editing")).find(".edit").setValue(newTaskText);
 
 
+    }
+
+    @Step
+    private void edit(int taskPosition, String newTaskText) {
+        tasks.get(taskPosition - 1).doubleClick();
+        tasks.find(Condition.cssClass("editing")).find(".edit").setValue(newTaskText).pressEnter();
     }
 
 }

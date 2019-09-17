@@ -7,9 +7,10 @@ import suites.refactoring.categories.Smoke;
 
 import static com.codeborne.selenide.CollectionCondition.empty;
 import static suites.refactoring.features.PageObject.*;
+import static suites.refactoring.features.TodosFilters.*;
 
 @Category({Smoke.class, End2End.class})
-public class AtAllSmokeTodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEachTest {
+public class AtAllSmokeTodoMVCTest extends AtTodoMVCPage {
 
     @Test
     public void testTodoMVC() {
@@ -21,40 +22,40 @@ public class AtAllSmokeTodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEach
                 aTask("3", ACTIVE),
                 aTask("4", ACTIVE));
 
-        assertAre("1", "2", "3", "4");
-        assertKeysLeft("4");
+        assertTaskHaveExactTexts("1", "2", "3", "4");
+        assertKeysLeftHaveActiveItems(4);
 
         //edit task
         editByText("3", "33");
-        assertAre("1", "2", "33", "4");
+        assertTaskHaveExactTexts("1", "2", "33", "4");
 
         editByText("33", "3");
-        assertAre("1", "2", "3", "4");
+        assertTaskHaveExactTexts("1", "2", "3", "4");
 
         escapeEditByText("3", "33");
-        assertAre("1", "2", "3", "4");
+        assertTaskHaveExactTexts("1", "2", "3", "4");
 
 
         //delete
         delete("2");
-        assertAre("1", "3", "4");
-        assertKeysLeft("3");
+        assertTaskHaveExactTexts("1", "3", "4");
+        assertKeysLeftHaveActiveItems(3);
 
         //mark completed & delete
         toggle("4");
-        setFilter("completed");
-        assertAre("4");
-        assertKeysLeft("2");
+        setFilter(FILTER_COMPLETED);
+        assertTaskHaveExactTexts("4");
+        assertKeysLeftHaveActiveItems(2);
 
 
-        setFilter("active");
-        assertAre("1", "3");
-        assertKeysLeft("2");
+        setFilter(FILTER_ACTIVE);
+        assertTaskHaveExactTexts("1", "3");
+        assertKeysLeftHaveActiveItems(2);
 
         clearCompleted();
-        setFilter("all");
-        assertAre("1", "3");
-        assertKeysLeft("2");
+        setFilter(FILTER_ALL);
+        assertTaskHaveExactTexts("1", "3");
+        assertKeysLeftHaveActiveItems(2);
 
         //mark completed & delete
         toggleAll();

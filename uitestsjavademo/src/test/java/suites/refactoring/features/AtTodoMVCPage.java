@@ -6,7 +6,7 @@ import org.junit.BeforeClass;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class AtTodoMVCPageWithClearedDataAfterEachTest extends BaseTest {
+public class AtTodoMVCPage extends BaseTest {
 
 
     @Before

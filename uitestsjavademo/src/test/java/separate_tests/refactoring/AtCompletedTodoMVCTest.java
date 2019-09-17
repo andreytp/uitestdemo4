@@ -21,6 +21,7 @@ public class AtCompletedTodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEac
     public void testMarkOutCompletedTaskOnCompletedFilter() {
         given(TaskType.COMPLETED, "1", "2", "3", "4");
         setFilter("completed");
+
         toggle("3");
         assertAre("1", "2", "4");
         assertKeysLeft("1");

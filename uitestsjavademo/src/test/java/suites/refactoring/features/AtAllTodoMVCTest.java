@@ -5,28 +5,28 @@ import org.junit.Test;
 import static com.codeborne.selenide.CollectionCondition.empty;
 import static suites.refactoring.features.PageObject.*;
 
-public class AtAllTodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEachTest {
+public class AtAllTodoMVCTest extends AtTodoMVCPage {
 
     @Test
     public void testAddTask() {
         given(TaskType.ACTIVE, "1", "2", "3", "4");
-        assertAre("1", "2", "3", "4");
-        assertKeysLeft("4");
+        assertTaskHaveExactTexts("1", "2", "3", "4");
+        assertKeysLeftHaveActiveItems(4);
     }
 
     @Test
     public void testDeleteTask() {
         given(TaskType.ACTIVE, "1", "2", "3", "4");
         delete("3");
-        assertAre("1", "2", "4");
-        assertKeysLeft("3");
+        assertTaskHaveExactTexts("1", "2", "4");
+        assertKeysLeftHaveActiveItems(3);
     }
 
     @Test
     public void testEditTask() {
         given(TaskType.ACTIVE, "1", "2", "3", "4");
         editByText("3", "33");
-        assertAre("1", "2", "33", "4");
+        assertTaskHaveExactTexts("1", "2", "33", "4");
 
     }
 
@@ -34,7 +34,7 @@ public class AtAllTodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEachTest 
     public void testStartEditWithEscTask() {
         given(TaskType.ACTIVE, "1", "2", "3", "4");
         escapeEditByText("3", "33");
-        assertAre("1", "2", "3", "4");
+        assertTaskHaveExactTexts("1", "2", "3", "4");
 
     }
 
@@ -42,8 +42,8 @@ public class AtAllTodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEachTest 
     public void testMarkCompletedTask() {
         given(TaskType.ACTIVE, "1", "2", "3", "4");
         toggle("3");
-        assertAre("1", "2", "3", "4");
-        assertKeysLeft("3");
+        assertTaskHaveExactTexts("1", "2", "3", "4");
+        assertKeysLeftHaveActiveItems(2);
         assertClearCompleted();
 
     }
@@ -52,8 +52,8 @@ public class AtAllTodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEachTest 
     public void testMarkOutCompletedTask() {
         given(TaskType.COMPLETED, "1", "2", "3", "4");
         toggle("3");
-        assertAre("1", "2", "3", "4");
-        assertKeysLeft("1");
+        assertTaskHaveExactTexts("1", "2", "3", "4");
+        assertKeysLeftHaveActiveItems(1);
         assertClearCompleted();
 
     }
@@ -70,15 +70,15 @@ public class AtAllTodoMVCTest extends AtTodoMVCPageWithClearedDataAfterEachTest 
     public void testMarkCompletedAllTask() {
         given(TaskType.ACTIVE, "1", "2", "3", "4");
         toggleAll();
-        assertKeysLeft("0");
+        assertKeysLeftHaveActiveItems(0);
     }
 
     @Test
     public void testMarkOutCompletedAllTask() {
         given(TaskType.COMPLETED, "1", "2", "3", "4");
         toggleAll();
-        assertAre("1", "2", "3", "4");
-        assertKeysLeft("4");
+        assertTaskHaveExactTexts("1", "2", "3", "4");
+        assertKeysLeftHaveActiveItems(4);
 
     }
 

@@ -19,7 +19,6 @@ public class PageObject {
     }
 
     private static int getFiltersIndex(@org.jetbrains.annotations.NotNull String filter) {
-
         if (filter.equals("all"))
             return 0;
 

@@ -21,11 +21,8 @@ public class BaseTest {
         screenshot();
     }
 
-
-
     @After
     public void clearData()  {
-
         executeJavaScript("localStorage.clear()");
         refresh();
     }

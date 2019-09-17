@@ -2,181 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953e8cad-d917-43ac-82b1-457ba861a4a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LearnProject/LearnProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/allure-results/27b8669c-0da3-4a3d-8ebc-e416b3fcb5a5-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/build/reports/tests/1567782136232.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/build/reports/tests/1567782136232.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/AllSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/BuggySuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/FullAcceptanceSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/SmokeSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/features/AtTodoMVCPageWithClearedDataAfterEachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/features/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/features/TodosE2ETest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/features/TodosOperationsAtAllFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/features/ancillary/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/features/ancillary/TaskType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/src/test/java/features/pages/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/test-classes/features/AtTodoMVCPageWithClearedDataAfterEachTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/test-classes/features/BaseTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/test-classes/features/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/test-classes/features/TodosE2ETest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/test-classes/features/ancillary/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/test-classes/features/ancillary/TaskType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/target/test-classes/features/pages/PageObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todomvctestssuite/todomvctestssuite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/01055d49-acb7-4943-8c07-b178138eef11-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/027dbdf0-6d78-4006-8131-f79eb222c186-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/03b7c8b9-d960-4627-a54f-ff206ba1de0f-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/07a4d215-02bc-4bec-95e0-996ecae67b4f-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1928d1b1-26dd-4b84-8776-f4158d261c60-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1c6d27eb-068c-40dd-bf85-b7f9d877b486-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1e7ebcae-8aac-4fd5-93e9-a55bf77bfba0-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2a4cb15e-d541-4298-912b-5b0674b71dbb-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3213f4aa-6f13-4043-bfbe-1bbfa54b5ca2-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3231ef47-12c1-4228-bdc6-67c73cb5ba25-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/371c92fb-1637-4e22-8f18-71b20937c8bc-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3c01e816-0047-4c4a-9c9b-d66a80c4f69d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/430fdfb3-8bc8-4abd-98d7-6654e94abca8-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/434d3cfc-4dd3-481b-9726-36d9455603bf-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/45709d51-740a-4f2f-ad50-9788d2965010-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/45e6dc44-1401-476a-9e86-eaf8aa3b191b-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/46e47aa2-da80-4c38-a03f-36fd1e631ad5-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/47c903e4-31e2-4328-91df-22d482aa527e-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4acc0322-7b7d-4865-9535-e16fd5a8b8fe-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4c7548d3-a39e-482d-9959-2f57a8e2c684-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4cca77f1-7f6e-4c66-8baf-89712b98c8e6-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/51193aad-37ae-458d-8776-9924464a6527-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5313033b-efef-4e1c-8015-d0fc7be33504-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/55e7b589-3f28-4f58-8f56-320f16df21fd-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/58a5b23a-6705-4303-8187-2399b24d392d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/58c14d5d-b3f1-4828-bd53-5a42028382e7-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5e27d59e-cc27-4994-84dc-a78fd70d6d3b-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5f15aa9f-4249-40bb-934e-8ca2779b3fa1-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6057cbd0-0a52-4979-a3c3-c718ab5c38c3-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6140fcec-0041-4009-90b3-d7ac4d2fd1f2-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/64247ea6-33a7-448a-a9fd-d04c686d09ad-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/66742f71-3a90-48ae-8d81-d0addce2da5f-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/678ed645-4b15-4c43-8f43-36fc9cb25c11-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/67ce5403-04be-4949-9182-31fb8ed1ac92-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/68bb7565-8fd1-4855-b12b-51eb36397e92-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6945247d-4b75-43e0-928f-2e1e72faa2c1-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6f45b9f2-2ef3-4ed1-a755-08c5a50d57da-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/72a413ed-9886-472d-a756-67df6de6461d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/74ff4330-1be3-4b64-907d-c407bd6fec2c-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/787c9438-3391-4b78-a531-960080adfa03-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7c9c76c5-dba3-4934-a19e-ba98760861c3-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7f5686c9-2781-4576-80c2-64f594874e8a-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/817b056c-fc1d-4430-8344-c26ec57a7bfd-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/86b2f447-84a3-42f4-85d2-f0b2cc064275-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/86b5a649-ee3a-4e4b-ae48-4ded24b3af75-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/89c69d9a-7475-4227-9d01-2edf2b3c82f9-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8a423c96-e693-4826-ad56-569dc2469c7d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8ff6006d-472b-47e3-be66-49ec5144c794-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/93d41b16-95c0-4f74-b809-b7d9316103a9-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/952b2b5e-1cd9-4af4-a60e-26e620c08080-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/961839e4-70a0-459f-92e1-26670f7c93cf-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/97ac52d7-0e0b-4c7d-ba11-8fb92c56a648-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9d231e09-bc24-47eb-9e7f-960d394cb955-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9da687f5-acd9-4e2e-bcce-0a79ba17f4be-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9e55345c-83ed-44fc-b8ad-65c01f4539a2-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a4bdc70f-b973-4646-aab8-a1d891267438-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a4c5661d-9341-4bfa-8bd9-a1db56458500-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a53e8d0a-2553-4c56-aed6-69b1764fc264-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a6672058-f1c5-4390-9cc8-075c980204e2-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a7c8ea8f-df81-46eb-954b-f771c6d7fb68-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a8c794c2-4278-417e-bf50-63579c622cfb-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a9bfb2af-ec2f-4760-b651-8af23355d6b5-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ab153c88-f3fe-4c18-b90c-319c9430e077-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/acab450f-d284-4d14-8bc2-9f4db8bb26d5-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/af144359-550b-4199-b738-faaa8ea66657-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b074ebf8-55af-43b6-a667-b38c2e680fbe-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b259a4e2-e377-47e6-95ac-9e52a9822116-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b3a95a8f-8f2d-45c7-b16c-2d6cd9dfe186-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bb24e168-275f-4e04-9185-a8b9ac96babf-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bb9cea5a-7ea6-45d0-9bb3-e2b03dd76d17-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bcc586e8-7321-4802-99e5-c6ce0780d631-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bfb5a090-7045-4cd4-bbd8-380690ae7486-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c20197a2-1ec7-4b2c-95de-3e0ec42ee7de-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c3edcece-b8a1-41f2-a4d5-5d240da0ffbe-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cb39391e-200b-4979-b9c3-2bf11e9aac3b-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cd108b2a-46ca-4a5b-9c82-36a030957200-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cf599a4f-77c5-4da1-bb4d-79f59e894a9c-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d3344f99-ada5-4ace-9cf1-e7833e66d617-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d5c23472-b5d1-4bb2-8210-5fb67fa47ea7-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/dc5a8e81-d592-46b4-8e46-74ba2b268057-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ddb95d16-2f4c-4b3c-becd-0f706ba7b57d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/df05728a-6f05-4131-bcd6-fbe05fb82015-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e9ef3730-5709-4adb-bcd0-91791858c52b-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/eb254a2d-aea5-4c7f-aaff-0cda778b4eaa-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/efa191ce-e05e-40cf-b5fa-7ca9aa1fe3f4-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f3e7db5f-dbb6-461f-a3cc-03cb44b6a5a1-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f6c09950-fffa-47a4-b03c-26b80e4671a8-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fc2862b1-49be-4216-a62d-fca1796e30f9-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fdb4c335-fdd4-4a1d-b7d7-30ab763c4967-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/feb8e234-9203-4583-958a-18be4d44510d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567703020273.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567703020273.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567711908318.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567711908318.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567711908669.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567711908669.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712210511.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712210511.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712210863.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712210863.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712482777.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712482777.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712486505.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712486505.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712610088.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712610088.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712610451.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712610451.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712739339.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712739339.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712739702.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567712739702.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567714453643.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567714453643.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567714504720.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567714504720.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567715452765.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1567715452765.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/AtActiveTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/AtAllSmokeTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/AtAllTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/AtCompletedTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/AtTodoMVCPageWithClearedDataAfterEachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/TaskType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/AcceptanceSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/SmokeSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/categories/End2End.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/categories/Smoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtActiveTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtAllSmokeTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtAllTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtCompletedTodoMVCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtTodoMVCPageWithClearedDataAfterEachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/TaskType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/gmailsendsearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/src/test/java/gmailtests/Credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/src/test/java/gmailtests/GmailLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/src/test/java/gmailtests/GmailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../googlesearch/googlesearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../googlesearch/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../googlesearch/src/test/java/pages/GoogleSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/02bb0f0b-0d35-40e3-bef7-e50af486bc14-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/07a1485b-66d0-45e1-ba03-da6ced5ec6aa-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0c8389aa-0dd7-467b-aa35-a84f944dae9c-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0e8ca0e1-bccf-4383-ac40-ba06a486b6e7-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/10cd20f1-56d0-4b3f-b7be-88b09b041f0c-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/44e9f9a2-b55a-4183-b3c0-7fec48264d8b-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/46105ee3-0bae-40bb-b3cb-65d3d2f971ed-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4d47ab6a-9f7e-4b48-8b4b-86c450921d42-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/57dcb50b-7118-4dda-afa1-d31c76e22ce2-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5b0e7689-686c-4f59-91de-7df1e9f38ec8-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6cca56eb-38ad-48ba-836b-2ae4f488050b-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/738f257c-7f3b-4ebb-91b8-90cea051329c-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7ffd7da5-bf79-4f9b-add5-27c5b1ba5da8-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c256ac2b-5524-477c-8879-eaf63f59fffb-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c79232ab-7206-4bc4-bc5b-9e31446fcc68-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d95a4834-f742-4a39-accb-abe569bcfecc-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/eeea89ea-8490-412d-ad3d-5c79b15fbeb5-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568720807959.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568720807959.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568721532993.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568721532993.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568721533381.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568721533381.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568722833344.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568722833344.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568723589617.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568723589617.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724009060.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724009060.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724219546.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724219546.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724379665.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724379665.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724380017.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724380017.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724453758.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724453758.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724454126.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568724454126.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568726288207.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568726288207.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568728424840.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568728424840.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568728476228.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568728476228.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568729567106.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1568729567106.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/TodosFilters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../googlesearch/src/test/java/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../googlesearch/src/test/java/GoogleSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todomvctestssuite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todomvctestssuite/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2e_vs_ft/refactoring/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/AtCompletedTodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/AtCompletedTodoMVCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/separate_tests/refactoring/PageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtActiveTodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtActiveTodoMVCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtAllSmokeTodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtAllSmokeTodoMVCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtAllTodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtAllTodoMVCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtCompletedTodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtCompletedTodoMVCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtTodoMVCPageWithClearedDataAfterEachTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/AtTodoMVCPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suites/refactoring/features/PageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/selenide/tests/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/selenide/tests/DemoTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,8 +90,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -243,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeSuiteTest">
+  <component name="RunManager" selected="JUnit.AtActiveTodoMVCTest.testDeleteActiveTaskOnActiveFilter">
     <configuration name="AcceptanceSuiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uitestsjavademo" />
       <extension name="coverage">
@@ -259,17 +160,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtActiveTodoMVCTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AtActiveTodoMVCTest.testDeleteActiveTaskOnActiveFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uitestsjavademo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="separate_tests.refactoring.*" />
+          <option name="PATTERN" value="suites.refactoring.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="separate_tests.refactoring" />
-      <option name="MAIN_CLASS_NAME" value="separate_tests.refactoring.AtActiveTodoMVCTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="suites.refactoring.features" />
+      <option name="MAIN_CLASS_NAME" value="suites.refactoring.features.AtActiveTodoMVCTest" />
+      <option name="METHOD_NAME" value="testDeleteActiveTaskOnActiveFilter" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -290,6 +192,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AtAllSmokeTodoMVCTest.testTodoMVC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uitestsjavademo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="suites.refactoring.features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="suites.refactoring.features" />
+      <option name="MAIN_CLASS_NAME" value="suites.refactoring.features.AtAllSmokeTodoMVCTest" />
+      <option name="METHOD_NAME" value="testTodoMVC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmokeSuiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uitestsjavademo" />
       <extension name="coverage">
@@ -305,27 +223,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="separate_tests.refactoring in uitestsjavademo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uitestsjavademo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="separate_tests.refactoring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="separate_tests.refactoring" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AtActiveTodoMVCTest.testDeleteActiveTaskOnActiveFilter" />
+        <item itemvalue="JUnit.AtAllSmokeTodoMVCTest.testTodoMVC" />
         <item itemvalue="JUnit.SmokeSuiteTest" />
         <item itemvalue="JUnit.AtActiveTodoMVCTest.testMarkCompletedAllTaskOnActiveFilter" />
         <item itemvalue="JUnit.AcceptanceSuiteTest" />
-        <item itemvalue="JUnit.separate_tests.refactoring in uitestsjavademo" />
-        <item itemvalue="JUnit.AtActiveTodoMVCTest" />
       </list>
     </recent_temporary>
   </component>
@@ -407,16 +311,5 @@
     <MESSAGE value=" code review&#10; add more class" />
     <MESSAGE value=" code review&#10; add page object&#10; add more tests&#10; provide full cover" />
     <option name="LAST_COMMIT_MESSAGE" value=" code review&#10; add page object&#10; add more tests&#10; provide full cover" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/suites/refactoring/features/PageObject.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

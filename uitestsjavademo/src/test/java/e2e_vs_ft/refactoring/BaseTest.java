@@ -11,6 +11,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static com.codeborne.selenide.Selenide.executeJavaScript;
 import static com.codeborne.selenide.Selenide.refresh;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
@@ -21,11 +24,8 @@ public class BaseTest {
         screenshot();
     }
 
-
-
     @After
     public void clearData()  {
-
         executeJavaScript("localStorage.clear()");
         refresh();
     }
@@ -53,13 +53,12 @@ public class BaseTest {
     }
 
     public void given(Task...tasks){
-        String resultString = "";
+        List<String> strings = new ArrayList<String>();
         for (Task item : tasks) {
-            resultString += String.format("%s%s",
-                    (resultString.length()==0?"":", "),
-                    item.toString());
+            strings.add(item.toString());
         }
-        executeJavaScript(String.format(jsCommand, resultString));
+        String oneCommonString = String.join(",", strings);
+        executeJavaScript(String.format(jsCommand, oneCommonString));
         refresh();
 
     }

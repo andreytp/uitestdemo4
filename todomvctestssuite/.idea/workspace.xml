@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b92299-28e0-423d-a369-8b8cfb47e051" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/gmailsendsearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/src/test/java/gmailtests/Credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/src/test/java/gmailtests/GmailLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailsendsearch/src/test/java/gmailtests/GmailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../googlesearch/googlesearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../googlesearch/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../googlesearch/src/test/java/pages/GoogleSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../googlesearch/src/test/java/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../googlesearch/src/test/java/GoogleSearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uitestsjavademo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uitestsjavademo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/AtCompletedTodoMVCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../uitestsjavademo/src/test/java/separate_tests/refactoring/AtCompletedTodoMVCTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
